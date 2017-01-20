@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class RegistrationController.php extends Controller
+class RegistrationController extends Controller
 {
     //
     public function registerform() 

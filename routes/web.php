@@ -19,6 +19,6 @@ Route::match(['get', 'post'], 'register', function () {
     //
 });
 
-Route::any('register', function () {
+Route::any('register', 'RegistrationController@registerform', function () {
     //
 });
